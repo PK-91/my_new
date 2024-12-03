@@ -9,6 +9,11 @@
         <relativePath/> <!-- Lookup parent from repository -->
     </parent>
 
+    <groupId>training.taylor.time-tracker</groupId>
+    <artifactId>time-tracker-core</artifactId>
+    <version>0.5.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <dependencies>
         <!-- Spring Boot Starter Test -->
         <dependency>
@@ -23,3 +28,4 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+</project>
