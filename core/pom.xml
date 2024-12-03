@@ -27,5 +27,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!-- JUnit Dependency -->
+        <dependency>
+            <groupId>org.junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version> <!-- JUnit 4 -->
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
